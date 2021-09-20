@@ -63,10 +63,29 @@ header img {
 }
 
 /* MAIN */
-figure {
+.hero {
     width: 100%;
-    height: 350px;
-    background-color: #e1d67a;
+    position: relative;
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+.hero .background {
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero_title {
+    color: #fdfafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 60%;
+    font-size: 17px;
+    position: absolute;
+    bottom: 75px;
 }
 
 .main_content {
