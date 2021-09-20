@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
 }
 
 /* UTILITIES */
 body {
     color: #929292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 }
 .container {
     max-width: 1470px;
@@ -78,26 +79,36 @@ header img {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.hero_title {
+.hero_content {
     color: #fdfafa;
     padding-left: 50px;
     padding-right: 50px;
     width: 60%;
-    font-size: 17px;
     position: absolute;
     bottom: 75px;
 }
 
+.hero_title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* MAIN CONTENT */
+.title h1 {
+    color: black;
+    font-size: 30px;
+}
+
 .main_content {
     width: 100%;
-    background-color: #0089f6
+    /* background-color: #0089f6 */
 }
 
 .title {
     width: 100%;
     margin-bottom: 20px;
     height: 80px;
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
 }
 
 .content {
