@@ -109,7 +109,9 @@ header img {
 .hero_title {
     font-size: 25px;
     font-weight: 600;
+    display: block;
 }
+
 
 /* MAIN CONTENT */
 .main_content {
